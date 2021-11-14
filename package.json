@@ -1,0 +1,16 @@
+{
+  "name": "sanity-upload-images-concurrently",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/client": "^2.21.10",
+    "p-map": "^5.3.0",
+    "path": "^0.12.7"
+  }
+}
