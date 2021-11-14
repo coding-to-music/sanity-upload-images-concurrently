@@ -4,8 +4,13 @@ https://github.com/sanity-io/sanity-recipes/blob/ec065dcfbcfa75c63a746be98c4eb1b
 
 
 
-
+Put images in a directory
 ```java
+mkdir ./images
+
+npm install
+
+npm run dev
 ```
 
 Output

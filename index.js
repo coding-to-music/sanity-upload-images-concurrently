@@ -1,6 +1,10 @@
-const sanityClient = require('@sanity/client')
-const path = require('path')
-const pMap = require('p-map')
+import sanityClient from '@sanity/client'
+import path from 'path'
+import pMap from 'p-map'
+
+// const sanityClient = require('@sanity/client')
+// const path = require('path')
+// const pMap = require('p-map')
 const {
   createReadStream,
   promises: {readdir, stat}
@@ -14,7 +18,7 @@ const client = sanityClient({
     useCdn: false
   })
   
-const IMAGES_FOLDER = `${__dirname}/test-images`
+const IMAGES_FOLDER = `${__dirname}/images`
 const CONCURRENCY = 10
 
 function round(num) {
